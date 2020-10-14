@@ -1,0 +1,485 @@
+
+
+@media(max-width: 1200px) {
+    .container {
+        max-width: 900px;
+    }
+
+
+    .section-title {
+        font-size: 42px;
+        line-height: normal;
+    }
+
+    .section-desc {
+        font-size: 16px;
+    }
+
+    .dignity span {
+        left: 84px;
+    }
+
+    .contact-input {
+        text-align: center;
+    }
+
+    .contact-item {
+        text-align: center;
+    }
+
+    .footer-title {
+        padding-bottom: 50px;
+    }
+
+    .section-menu-title {
+        font-size: 32px;
+    }
+
+    .menu-img {
+        width: 190px;
+        height: 224px;
+    }
+
+    .menu-basket {
+        width: 202px;
+        height: 37px;
+    }
+
+    .menu-button {
+        width: 204px;
+        height: 38px;
+    }
+
+    .menu-basket span {
+        left: 176px;
+    }
+
+    .product-img {
+        padding-top: 90px;
+        width: 518px;
+        height: 458px;
+    }
+
+    .about-img {
+        width: 465px;
+        height: 498px;
+    }
+    .hero-title{
+        font-size: 100px;
+    }
+    .hero-btn {
+        width: 225.32px;
+        height: 58px;
+}
+    .hero-desc{
+        font-size: 14px;
+    }
+    .hero-img {
+        width: 647px;
+        top: 264px;
+    }
+}
+
+
+@media(max-width: 992px) {
+    .container {
+        max-width: 700px;}
+    .top-menu{
+        display: none;
+    }
+    .mobile-menu{
+        display: flex;
+        background:  #fc7e46;
+    }
+    .top-menu.show{
+        position: fixed;
+        background: #fc7e46;
+
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 208px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .mobile-menu span{
+        background: white;
+    }
+    .mobile-menu span:after,
+    .mobile-menu span:before{
+        background: #FFFFFF;
+    }
+    .menu-item {
+        padding: 12px;
+        font-size: 10px;}
+    .top-menu.show .menu-item{
+        margin-right: 0;
+    }
+
+    .col-6{
+        width: 100%;
+    }
+    .text-area{
+        background: none;
+    }
+    .hero-title{
+        font-size: 96px;
+    }
+    .hero-desc{
+        font-size: 15px;
+    }
+    .hero-btn{
+        width: 195.32px;
+        height: 48px;
+    }
+    .hero-btn a{
+        font-size: 12px;
+    }
+    .hero-img{
+        top: 312px;
+        width: 559px;
+    }
+    .home-juice-title{
+        font-size: 49px;
+    }
+    .section-title{
+        font-size: 38px;
+        line-height: normal;
+        padding: 34px 0 30px
+    }
+    .section-diet {
+        padding: 20px 0 42px;
+    }
+    .section-health {
+        padding: 17px 0;
+    }
+    .health-img1{
+        padding-top: 30px;
+    }
+    .dignity span{
+        left: 36px;
+    }
+    .contact-item{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .contact-input{
+        text-align: center;
+    }
+    .col-3{
+        width: 50%;
+    }
+      .menu-img {
+        width: 287px;
+        height: 224px;
+    }
+    .menu-basket {
+        width: 335px;
+        height: 37px;
+    }
+    .menu-button{
+        width: 335px;
+        height: 38px;
+    }
+.menu-basket span{
+
+        left: 303px;
+    }
+    .product-img {
+        padding-top: 2px;
+        width: 518px;
+        height: 398px;
+    }
+    .second-title{
+        font-size: 30px;
+    }
+    .about {
+        padding: 10px 0 50px ;
+    }
+}
+
+
+
+@media(max-width: 768px) {
+    .container {
+        max-width: 500px;
+    }
+
+
+    .top-menu{
+        display: block;
+    }
+    .mobile-menu{
+        display: flex;
+        background:  #fc7e46;
+    }
+    .top-menu.show{
+        position: fixed;
+        background: #fc7e46;
+
+    top: 0;
+        left: 0;
+        width: 100%;
+        height: 208px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .mobile-menu span{
+        background: white;
+    }
+    .mobile-menu span:after,
+    .mobile-menu span:before{
+        background: #FFFFFF;
+    }
+    .menu-item {
+        padding: 12px;
+    font-size: 10px;}
+    .top-menu.show .menu-item{
+        margin-right: 0;
+    }
+
+.product-img{
+    width: 358px;
+    height: 316px;
+}
+
+
+    header {
+        width: 100%;
+    }
+    .col-6{
+        width: 100%;
+    }
+    .top-menu{
+        display: none;
+    }
+    .hero-title{
+        font-size: 60px;
+    }
+    .hero-desc{
+        font-size: 14px;
+        line-height: normal;
+    }
+.hero-btn{
+    width: 156px;
+    height: 44px;
+}
+.section-title{
+    text-align: center;
+    font-size: 22px;
+    line-height: normal;
+}
+.health-img{
+    padding-top: 50px;
+}
+.health{
+    padding-bottom: 20px;
+}
+.home-juice{
+    height: 50vh;
+}
+.home-juice-title{
+    font-size: 41px;
+    line-height: normal;
+}
+        .health-img1 {
+            width: 244px;
+            height: 269px;
+        padding-left: 59px;
+    }
+    .section-diet {
+        padding: 43px 0 36px;
+    }
+    .col-4{
+        width: 100%;
+    }
+
+    .footer-title{
+        font-size: 24px
+    }
+    .input {
+        width: 216px;
+        height: 35px;
+        margin-bottom: 4px;
+    }
+    .contact-item{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-btn {
+        width: 99px;
+        height: 25px;
+        font-size: 10px;
+    }
+    .telegram , .instagram , .facebook{
+        background: none;
+    }
+    .contact-input{
+        text-align: center;
+    }
+
+    .btn{
+        text-align: center;
+     }
+    .section-health {
+        padding: 58px 0 25px;}
+    .icon{
+        width: 70px;
+        height: 70px;
+    }
+    .logo {
+        height: 70px;
+        width: 70px;}
+    .hero-img {
+        width: 370px;
+        top: 304px;
+        right: 0;
+    }
+    .hero-title{
+        padding-top: 55px;
+        text-align: center;
+        padding-bottom: 35px;
+    }
+    .hero-desc{
+
+        font-size: 10px;
+        line-height: normal;
+    }
+    .hero-btn{
+        display: none;
+    }
+    .hero{
+        padding-bottom: 126px;
+    }
+    .dignity{
+        padding:100px 0 0;
+    }
+    .dignity span{
+        width: 120px;
+        height: 120px;
+        left: 162px
+    }
+    .dignity span:after,
+    .dignity span:before{
+        width: 30px;
+        height: 30px;
+    }
+    .dignity-subtitle{
+        padding-top: 50px;
+        margin-bottom: 63px;
+    }
+    .btn{
+        text-align: center;
+    }
+    .home-juice-title {
+        font-size: 25px;
+}
+
+.footer-title{
+    font-size: 30px;
+}
+.col-3{
+    width: 100%;
+}
+.menu-item , .menu-content{
+    text-align: center;
+}
+.menu-basket , .menu-button{
+
+        width: 451px;
+        height: 50px;
+
+}
+    .menu-basket span {
+        left: 400px;
+    }
+    .about-img {
+        width: 380px;
+        height: 400px;
+    }
+
+}
+
+@media(max-width: 500px) {
+    .container {
+        max-width: 300px;
+
+    }
+
+    .hero-btn {
+        width: 117px;
+        height: 36px;
+    }
+    .hero-img{
+        top: 316px;
+
+    }
+
+    .hero-btn a {
+        font-size: 10px;
+    }
+
+    .dignity {
+        padding: 100px 0 0;
+    }
+
+    .dignity span {
+        width: 100px;
+        height: 104px;
+        left: 75px;
+    }
+
+    .dignity span:after,
+    .dignity span:before {
+        width: 25px;
+        height: 25px;
+    }
+
+    .dignity-subtitle {
+        padding-top: 50px;
+        margin-bottom: 63px;
+    }
+
+    .icon {
+        width: 48px;
+        height: 48px;
+    }
+    .col-3{
+        width: 100%;
+    }
+    .footer-title{
+        font-size: 13px;
+    }
+.menu-content{
+        text-align: center;
+    }
+    .menu-basket, .menu-button {
+        width: 250px;
+        height: 40px;
+    }
+
+    .about-img {
+        width: 308px;
+        height: 326px;
+        padding: 0;
+    }
+    .dignity span{
+        left: 95px;
+    }
+    .menu-basket, .menu-button {
+        width: 300px;
+        height: 45px;
+    }
+    .menu-basket span {
+        left: 272px;
+    }
+    .section-menu {
+        padding: 85px 0 0px;
+    }
+
+}
+
